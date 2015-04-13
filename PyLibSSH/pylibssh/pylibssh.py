@@ -384,5 +384,5 @@ ffi.cdef("""
 
 """)
 
-LIBSSH = ffi.dlopen("libssh.dylib")
+LIBSSH = ffi.dlopen("libssh")
 print ffi.string(LIBSSH.ssh_copyright())
